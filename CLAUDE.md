@@ -35,3 +35,4 @@
 
 ## 저장소
 - 원격: <https://github.com/victoriatech25/inet-speed> (`origin`, 기본 브랜치 `main`)
+- 푸시 인증: 이 PC의 gh 기본 계정(kyhoon-hj)은 이 저장소에 쓰기 권한이 없습니다. 그래서 저장소 로컬 설정(`.git/config`)의 credential helper가 `gh auth token --user victoriatech25`로 토큰을 가져옵니다. 푸시가 403이나 인증 오류로 실패하면 `gh auth status`에서 victoriatech25 로그인 상태를 확인합니다. gh 기본 계정은 바꾸지 않습니다.
