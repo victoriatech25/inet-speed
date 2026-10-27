@@ -8,7 +8,7 @@
 - **기준 문서**: [PLAN.md](PLAN.md) v3, [WORKPLAN.md](WORKPLAN.md)
 - **다음 할 일 (S0)**
   1. `victoria-tech.com`을 브라우저로 열어 색상·글꼴·헤더·로고 확인 → 디자인 기준표 작성
-  2. 임시 파일 삭제: `package.json`(`cool-tesla-speedtest`, express/cors), `package-lock.json`, `node_modules` (git에는 올리지 않았음)
+  2. 임시 파일 삭제: `package.json`(`cool-tesla-speedtest`, express/cors), `package-lock.json`, `node_modules` (git에는 올리지 않았음, 로컬에만 있음)
   3. S1 프로젝트 골격 착수
 - **사용자에게 받을 것**
   - 홈페이지 `package.json` (Next.js 버전, 스타일 방식)
@@ -44,6 +44,10 @@
   - v2: 기존 홈페이지가 Next.js on EC2임을 확인, `@cloudflare/speedtest` 사용으로 전환
   - v3: 비용 0원 원칙 적용 (패킷 손실·TURN·서버 API 제외, 정적 사이트)
   - WORKPLAN.md 작성: S0~S9 단계, 단계별 목표·기대 결과·화면 검증 체크리스트
-  - CLAUDE.md(자동 지침), progress.md 작성, GitHub 저장소 연결
-- **결정**: 위 "확정된 결정" 표 참고
-- **남은 일**: S0부터 구현 시작
+  - CLAUDE.md(자동 지침), progress.md 작성, GitHub 저장소(`victoriatech25/inet-speed`) 연결
+  - 푸시 절차 확정: gh 활성 계정이 victoriatech25가 아니면 전환 → 푸시 → 원래 계정으로 복원
+  - README.md 추가 (목적, 구성 요약, 현재 상태). 마무리 절차에 README 갱신 포함
+  - 문서·참고자료를 `doc/`로 이동 (루트에는 README.md, CLAUDE.md만). 새 문서는 `doc/`, 이미지는 `doc/assets/`에 두는 규칙 추가
+- **결정**: 위 "확정된 결정" 표 참고. 작업 방식은 CLAUDE.md 참고
+- **남은 일**: S0부터 구현 시작 (위 "다음 할 일" 참고)
+- **참고**: 커밋 작성자는 이 PC의 기본 git 설정(kyhoon-hj)으로 기록되고 있음. 바꾸려면 저장소 로컬 `user.name`/`user.email` 설정 필요
