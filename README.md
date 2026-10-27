@@ -19,7 +19,7 @@
 측정값은 "사용자 ↔ 가장 가까운 Cloudflare 엣지(한국은 대개 서울)" 구간의 품질입니다.
 
 ## 현재 상태
-> 이 섹션은 세션을 마무리할 때마다 갱신합니다. 자세한 진행 기록은 [progress.md](progress.md)에 있습니다.
+> 이 섹션은 세션을 마무리할 때마다 갱신합니다. 자세한 진행 기록은 [doc/progress.md](doc/progress.md)에 있습니다.
 
 - **마지막 갱신**: 2026-10-27
 - **단계**: 기획 완료, 구현 전 (다음: S0 준비 → S1 프로젝트 골격)
@@ -35,9 +35,9 @@
 ## 문서
 | 파일 | 내용 |
 | :--- | :--- |
-| [PLAN.md](PLAN.md) | 기획과 기술 결정 |
-| [WORKPLAN.md](WORKPLAN.md) | 단계별 작업 항목, 기대 결과, 화면 검증 체크리스트 |
-| [progress.md](progress.md) | 현재 상태와 작업 일지 |
+| [doc/PLAN.md](doc/PLAN.md) | 기획과 기술 결정 |
+| [doc/WORKPLAN.md](doc/WORKPLAN.md) | 단계별 작업 항목, 기대 결과, 화면 검증 체크리스트 |
+| [doc/progress.md](doc/progress.md) | 현재 상태와 작업 일지 |
 | [CLAUDE.md](CLAUDE.md) | 작업 지침 (새 대화 시작·마무리 절차) |
 
 ## 실행 방법

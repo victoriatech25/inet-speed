@@ -241,8 +241,9 @@ flowchart TD
 
 ```text
 C:\devel\inet-info\
-├── PLAN.md
-├── assets/reference-cloudflare-speedtest.png
+├── README.md
+├── CLAUDE.md                 # 작업 지침 (자동으로 읽힘, 루트에 있어야 함)
+├── doc/                      # 문서·참고자료 (PLAN, WORKPLAN, progress, assets)
 ├── package.json
 ├── next.config.ts                # output: 'export', basePath: '/speed'
 ├── public/                       # 로고, 글꼴
